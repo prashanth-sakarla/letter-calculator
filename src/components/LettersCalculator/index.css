@@ -1,0 +1,43 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 40;
+  font-weight: 500;
+  padding-left: 20px;
+}
+.para {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15;
+  font-weight: 500;
+  padding-left: 20px;
+}
+.search-input {
+  font-family: 'Roboto';
+  outline: none;
+  height: 25px;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-left: 20px;
+  border: 2px solid #e4e7eb;
+}
+.card {
+  height: 50px;
+  width: 120px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 8px;
+}
